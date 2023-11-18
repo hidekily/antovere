@@ -20,14 +20,21 @@ body{
     width: 80%;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     border: 2px solid;
     border-radius: 10px;
+
+    background-color: #363636;
+
+    color: cornflowerblue;
 }
 
 #img{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 800px;
@@ -37,9 +44,60 @@ body{
 #palmeiras{
     display: flex;
     background-image: url(imagens/palmeiras.png);
-    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 
     width: 100%;
     height: 100%;
+
+    border-radius: 10px;
+}
+
+#segundo{
+    display: flex;
+    background-image: url(imagens/MicrosoftTeams-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+#sep{
+    height: 8px;
+    background-color: cornflowerblue;
+}
+
+#fgima{
+    display: flex;
+    background-image: url(imagens/fgm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+#phto{
+    display: flex;
+    background-image: url(imagens/ph.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+#c{
+    width: 80%;
 }
